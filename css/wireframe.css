@@ -1,0 +1,89 @@
+  
+  ul.tab {
+    background:transparent url(/images/gui/bg-tab-border.png) bottom left repeat-x; 
+  }
+
+    .tab li {
+      border:1px solid #999;
+    }
+
+  .container, .container-r {
+  float:left;
+  padding:5px;
+  margin:0 21px 10px 0;
+  border:1px solid #999;
+}
+
+  .container-r {
+    float:right;
+    margin: 0 0 10px 21px;
+  }
+
+.callout, .callout-link  {
+  background:#ccc;
+  padding:3px 6px;
+  margin:10px;
+}
+
+.callout-link {
+  color:white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background:#333;
+  display:inline;
+  float:left;
+ } 
+
+  .callout-link:hover {
+    background:#666;
+  }
+
+.wireframe, .wf {
+  background: rgba(250,250,250,.8);
+  float:left;
+  margin-bottom:21px;
+}
+
+  .wireframe .wireframe, .wf .wf, .wireframe .wf, .wf .wireframe {
+    background:#ccc;
+  } 
+
+  .wireframe .wireframe .wireframe, .wf .wf .wf, .wireframe .wf .wf, .wf .wireframe .wf {
+    background:#999;
+  }
+
+.img, .img-l {
+  background:#bbb;
+  height:150px;
+  float:right;
+  margin: 0 0 10px 21px;
+ }
+   
+   .img-l {
+    float:left;
+    margin:0 21px 10px 0;
+   }
+
+.img:before, .img-l:before {
+    content: "Image";
+  }
+
+ .thumb {
+  background:#bbb;
+  height:60px;
+  width:60px;
+  float:right;
+  margin: 0 0 5px 10px;
+ }
+   
+  .thumb:before {
+    content: "Thumb";
+  } 
+
+.hover:hover {
+  background:#ddd;
+}   
+
+.content-block {
+	margin-bottom:21px !important;
+}

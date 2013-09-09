@@ -1,0 +1,9 @@
+import os
+from gaesessions import SessionMiddleware
+__author__ = 'rob'
+
+def webapp_add_wsgi_middleware(app):
+    app = SessionMiddleware(app,
+                            cookie_key="\x77\xcb\xef~\x83\x12\xbev\xfeZ\x1aG\xb9^\x89:\xf8\x7f+Y+\x15\x91\xe8\x985\xd9aHY\xf1x\x99]'\xd3\xb2\x13\xa4\xc3\x92\xa50\xae\xb8\x90\xbb(\xba\x95\x1f\x07\xd2\xa0\xc0B*q\xe7\xc4e.\xae9")
+    return app
+  

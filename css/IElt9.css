@@ -1,0 +1,45 @@
+ .hor-center ul li { 
+	display: inline; 	
+	zoom: 1;	
+}
+
+/* Trigger has-layout, show bg img  
+---------------------------------------- */
+el {
+	zoom:1;
+}
+
+/* img rep 
+---------------------------------------- */
+el {
+	font-size:0;
+	line-height:0;
+}
+
+/* Misc 
+---------------------------------------- */
+
+.imgr {
+	font-size:0;
+	line-height:0;
+}
+
+.shadow { 
+	/* ie 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Glow(color=#DFE3D1,strength=1)progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=15,strength=6)";
+	/* ie 5.5-7 */
+	filter: progid:DXImageTransform.Microsoft.Glow(color=#DFE3D1,strength=1)progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=135,strength=6);
+}
+
+#content {
+	border:1px solid #999;
+}
+
+legend {
+	padding:20px;
+}
+
+#feedback a {
+	color:#000
+}
+

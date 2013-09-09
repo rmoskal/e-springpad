@@ -1,0 +1,43 @@
+/* Double-float margin bug */
+#header,
+#footer,
+#content {
+	display: inline;
+}
+
+/* Negative margin 
+---------------------------------------- */
+
+el {
+	position:relative;
+}
+
+
+/*  fix col-drop from long words
+---------------------------------------- */
+el {
+	overflow:hidden;
+}
+
+/* Haslayout 
+---------------------------------------- */
+el {
+	zoom:1;
+}
+
+
+/* resolve disappearing pos abs: add after missing el
+
+<!--[if lt IE 7]>
+	<div class="clear-fix"></div>
+<![endif]-->				
+
+*/
+
+
+/* Misc 
+---------------------------------------- */
+
+#nav .first {
+	border-left:0 none !important;
+}

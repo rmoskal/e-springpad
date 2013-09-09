@@ -1,0 +1,27 @@
+application: e-springpad
+version: 1
+runtime: python
+api_version: 1
+
+builtins:
+- datastore_admin: on
+
+handlers:
+
+- url: /css
+  static_dir: css
+
+- url: /images
+  static_dir: images
+
+- url: /js
+  static_dir: js
+  
+- url: /test.*
+  #login: admin  # This is important if you deploy the test directory in production!
+  script: gaeunit.py
+
+- url: /.*
+  script: main.py
+
+
